@@ -41,6 +41,8 @@ public class Animal{
    
    }
     // Create a static method called "randomAnimalType" that returns a random
+    public static String randomAnimalType(){
+    }
     // animale type
     // HINT: Decide how many animal types you want to be able to create, pick a random number
     // and then use if/else/if statements to determine what the animal should say
