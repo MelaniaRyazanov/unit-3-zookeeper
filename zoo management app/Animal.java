@@ -73,7 +73,7 @@ public class Animal{
      for(int i = 0; i < 2; i++){
       i++;
       randomNumber = i + randomNumber;
-      System.out.println("Ammount of "+ animalType + "s" + ": " + randomNumber + ", which say " + animalNoise);
+      System.out.println("Amount of "+ animalType + "s" + ": " + randomNumber + ", which say " + animalNoise);
       
      }
       
