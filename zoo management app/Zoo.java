@@ -1,11 +1,16 @@
 public class Zoo {
-   
-  
    Cage cageA;
    Cage cageB;
    Cage cageC;
    
   public Zoo() {
+   // 1) No-arg constructor:
+    //    - instantiate all 3 cages
+    Cage cageA = new Cage();
+    Cage cageB = new Cage();
+    Cage cageC = new Cage();
+    //    - each cage should start with a random Animal
+    //    Hint: Cage() can create a random Animal by calling new Animal()
    
     }
 
@@ -13,7 +18,7 @@ public class Zoo {
     //    - takes 3 Animal parameters and places them into the 3 cages
     //    - must demonstrate constructor overloading and use "this." at least once
     public Zoo(Animal a1, Animal a2, Animal a3) {
-
+     
     }
 
     // howManyAnimals():
