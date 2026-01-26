@@ -10,22 +10,23 @@ public class Zoo {
     Cage cageB = new Cage();
     Cage cageC = new Cage();
     //    - each cage should start with a random Animal
-    //    Hint: Cage() can create a random Animal by calling new Animal()
-   
+    //    Hint: Cage() can create a random Animal by calling new Animal()   
     }
 
     // 2) Overloaded constructor:
     //    - takes 3 Animal parameters and places them into the 3 cages
     //    - must demonstrate constructor overloading and use "this." at least once
     public Zoo(Animal a1, Animal a2, Animal a3) {
-     
+         this.cageA = new Cage(a1);
+         this.cageB = new Cage(a2);
+         this.cageC = new Cage(a3);
     }
 
     // howManyAnimals():
     // Returns the number of Animal objects that have been created so far.
     // Hint: use a static/class variable (and likely a static accessor) in Animal.
     public int howManyAnimals() {
-    
+      
     }
 
     // putAnimalInCage(Cage cage, Animal animal):
